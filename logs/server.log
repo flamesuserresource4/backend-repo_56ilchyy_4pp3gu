@@ -1,0 +1,20 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [252] using StatReload
+INFO:     Started server process [254]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:41032 - "GET /api/alerts/2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41046 - "GET /api/budget/2025-11 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41046 - "GET /api/budget/2025-11 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41036 - "GET /api/transactions?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41032 - "GET /api/budget/2025-11 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41060 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:41052 - "GET /api/budget/2025-11 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:59600 - "GET /api/transactions?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41052 - "GET /api/alerts/2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59608 - "GET /api/budget/2025-11 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:59600 - "GET /api/transactions?month=2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41052 - "GET /api/alerts/2025-11 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59608 - "GET /api/budget/2025-11 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:41052 - "GET /api/budget/2025-11 HTTP/1.1" 404 Not Found
